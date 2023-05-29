@@ -1,0 +1,39 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 768px) {
+.img-back {
+    display: none !important;
+        padding-bottom: 10px;
+}
+.hero-grid {
+    display: block !important;
+    padding-bottom: 10px;
+}
+.lead{
+    display: none;
+        padding-bottom: 10px;
+}
+.hero{
+    height: auto !important;
+}
+.title{
+        text-align: center;
+            padding-bottom: 10px;
+}
+
+       .nav-mobile{
+
+           flex-direction: column !important;
+           align-items: end !important;
+           justify-content: space-between !important;
+           width: 100%;
+           max-width: 100%;
+           display: flex !important;
+       }
+}
+
+.nav-hover:hover{
+    color: red;
+}

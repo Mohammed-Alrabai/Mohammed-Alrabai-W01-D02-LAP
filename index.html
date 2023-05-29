@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet" />
+    <!-- bootstrap cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body class="bg-dark">
+    <!-- navbar -->
+    <nav
+      class="navbar container navbar-expand-lg d-flex justify-content-between">
+      <div class="nav-mobile container-fluid">
+        <a class="navbar-brand text-light" href="#">
+          <img
+            class="img-fluid w-25 h-25"
+            src="./public/img/logo-light.svg"
+            alt="" />
+        </a>
+        <button
+          class="navbar-toggler text-light bg-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end align-items-center my-4"
+          id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link nav-hover active text-light" aria-current="page" href="#"
+              >Demos</a
+            >
+            <a class="nav-link nav-hover text-light px-2" href="#">Support</a>
+            <a class="nav-link nav-hover text-light px-2" href="#">Documentation</a>
+            <button class="btn btn-primary px-2 text-light p-0">
+              <a class="nav-link text-light disabled">Buy Now</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+    <!-- hero section -->
+    <section class="hero" style="height: 100vh; width: 100%">
+      <div
+        class="img-back d-flex justify-content-center position-absolute top-0">
+        <img class="img-fluid w-100 h-25" src="./public/img/02.png" alt="" />
+      </div>
+      <div class="px-4 pt-5 my-2 text-center">
+        <h1 class="display-4 fw-bold text-light">Booking HTML Theme</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            Quickly design and customize responsive mobile-first sites with
+            Bootstrap, the world’s most popular front-end open source toolkit,
+            featuring Sass variables and mixins, responsive grid system,
+            extensive prebuilt components, and powerful JavaScript plugins.
+          </p>
+          <div
+            class="hero-grid d-grid gap-2 d-sm-block mb-4 align-content-center justify-content-sm-center">
+            <h6 class="text-light mb-5 mt-2 d-inline">Category:</h6>
+            <a class="text-light btn btn-dark" href="">
+              <svg
+                class="me-1"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+                height="15"
+                viewBox="0 0 512 512">
+                <path
+                  d="M32 0C14.3 0 0 14.3 0 32S14.3 64 32 64V448c-17.7 0-32 14.3-32 32s14.3 32 32 32H208V448h96v64H480c17.7 0 32-14.3 32-32s-14.3-32-32-32V64c17.7 0 32-14.3 32-32s-14.3-32-32-32H32zm80 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H112c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zm112 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H240c-8.8 0-16-7.2-16-16V112zM368 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H368c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zM96 208c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H112c-8.8 0-16-7.2-16-16V208zm144-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H240c-8.8 0-16-7.2-16-16V208c0-8.8 7.2-16 16-16zm112 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H368c-8.8 0-16-7.2-16-16V208zm-3 152.2c3.3 12.8-7.8 23.8-21 23.8H184c-13.3 0-24.3-10.9-21-23.8c10.6-41.5 48.2-72.2 93-72.2s82.5 30.7 93 72.2z"></path>
+              </svg>
+              Hotel</a
+            >
+            <a class="text-light btn btn-dark" href="">
+              <svg
+                class="me-1"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+                height="15"
+                viewBox="0 0 512 512">
+                <path
+                  d="M32 0C14.3 0 0 14.3 0 32S14.3 64 32 64V448c-17.7 0-32 14.3-32 32s14.3 32 32 32H208V448h96v64H480c17.7 0 32-14.3 32-32s-14.3-32-32-32V64c17.7 0 32-14.3 32-32s-14.3-32-32-32H32zm80 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H112c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zm112 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H240c-8.8 0-16-7.2-16-16V112zM368 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H368c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zM96 208c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H112c-8.8 0-16-7.2-16-16V208zm144-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H240c-8.8 0-16-7.2-16-16V208c0-8.8 7.2-16 16-16zm112 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H368c-8.8 0-16-7.2-16-16V208zm-3 152.2c3.3 12.8-7.8 23.8-21 23.8H184c-13.3 0-24.3-10.9-21-23.8c10.6-41.5 48.2-72.2 93-72.2s82.5 30.7 93 72.2z"></path>
+              </svg>
+              Hotel</a
+            >
+            <a class="text-light btn btn-dark" href="">
+              <svg
+                class="me-1"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+                height="15"
+                viewBox="0 0 512 512">
+                <path
+                  d="M32 0C14.3 0 0 14.3 0 32S14.3 64 32 64V448c-17.7 0-32 14.3-32 32s14.3 32 32 32H208V448h96v64H480c17.7 0 32-14.3 32-32s-14.3-32-32-32V64c17.7 0 32-14.3 32-32s-14.3-32-32-32H32zm80 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H112c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zm112 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H240c-8.8 0-16-7.2-16-16V112zM368 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H368c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zM96 208c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H112c-8.8 0-16-7.2-16-16V208zm144-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H240c-8.8 0-16-7.2-16-16V208c0-8.8 7.2-16 16-16zm112 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H368c-8.8 0-16-7.2-16-16V208zm-3 152.2c3.3 12.8-7.8 23.8-21 23.8H184c-13.3 0-24.3-10.9-21-23.8c10.6-41.5 48.2-72.2 93-72.2s82.5 30.7 93 72.2z"></path>
+              </svg>
+              Hotel</a
+            >
+            <a class="text-light btn btn-dark" href="">
+              <svg
+                class="me-1"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+                height="15"
+                viewBox="0 0 512 512">
+                <path
+                  d="M32 0C14.3 0 0 14.3 0 32S14.3 64 32 64V448c-17.7 0-32 14.3-32 32s14.3 32 32 32H208V448h96v64H480c17.7 0 32-14.3 32-32s-14.3-32-32-32V64c17.7 0 32-14.3 32-32s-14.3-32-32-32H32zm80 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H112c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zm112 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H240c-8.8 0-16-7.2-16-16V112zM368 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H368c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zM96 208c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H112c-8.8 0-16-7.2-16-16V208zm144-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H240c-8.8 0-16-7.2-16-16V208c0-8.8 7.2-16 16-16zm112 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H368c-8.8 0-16-7.2-16-16V208zm-3 152.2c3.3 12.8-7.8 23.8-21 23.8H184c-13.3 0-24.3-10.9-21-23.8c10.6-41.5 48.2-72.2 93-72.2s82.5 30.7 93 72.2z"></path>
+              </svg>
+              Hotel</a
+            >
+            <a class="text-light btn btn-dark" href="">
+              <svg
+                class="me-1"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+                height="15"
+                viewBox="0 0 512 512">
+                <path
+                  d="M32 0C14.3 0 0 14.3 0 32S14.3 64 32 64V448c-17.7 0-32 14.3-32 32s14.3 32 32 32H208V448h96v64H480c17.7 0 32-14.3 32-32s-14.3-32-32-32V64c17.7 0 32-14.3 32-32s-14.3-32-32-32H32zm80 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H112c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zm112 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H240c-8.8 0-16-7.2-16-16V112zM368 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H368c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zM96 208c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H112c-8.8 0-16-7.2-16-16V208zm144-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H240c-8.8 0-16-7.2-16-16V208c0-8.8 7.2-16 16-16zm112 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H368c-8.8 0-16-7.2-16-16V208zm-3 152.2c3.3 12.8-7.8 23.8-21 23.8H184c-13.3 0-24.3-10.9-21-23.8c10.6-41.5 48.2-72.2 93-72.2s82.5 30.7 93 72.2z"></path>
+              </svg>
+              Hotel</a
+            >
+          </div>
+        </div>
+        <div class="overflow-hidden">
+          <div class="container px-5">
+            <img
+              src="./public/img/01.jpg"
+              class="img-fluid border rounded-3 shadow-lg mb-4"
+              alt="Example image"
+              width="950"
+              height="500"
+              loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of hero -->
+
+    <!-- Card Section -->
+    <section
+      class="py-5 text-center container"
+      style="margin-top: 10rem">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light text-light mb-2">
+            Carefully crafted demo sites.
+          </h1>
+          <p
+            class="lead mt-2"
+            style="
+              font-size: 1rem;
+              line-height: 1.5;
+              color: rgb(209, 209, 209);
+            ">
+            Created with detailed research on a particular domain niche to
+            fulfill all the required features, designs, and pages. You can also
+            mix and match sections to create a website related to listing and
+            directory domains. Hotel booking Best for hotel, listing and
+            directory website Hotel chain Crafted for hotel chain with multiple
+            locations/city
+          </p>
+        </div>
+      </div>
+      <div class="album py-5 bg-dark">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+            <div class="col-sm-6">
+              <div class="card border-0 bg-black">
+                <img src="./public/img/03.jpg" alt="" />
+                <div class="card-body bg-black">
+                  <h3 class="card-title text-light">Card title</h3>
+                  <p class="card-text "
+                  style="color: rgb(209, 209, 209);">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card border-0 bg-black">
+                <img src="./public/img/03.jpg" alt="" />
+                <div class="card-body bg-black">
+                  <h3 class="card-title text-light">Card title</h3>
+                  <p class="card-text "
+                  style="color: rgb(209, 209, 209);">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card border-0 bg-black">
+                <img src="./public/img/03.jpg" alt="" />
+                <div class="card-body bg-black">
+                  <h3 class="card-title text-light">Card title</h3>
+                  <p class="card-text "
+                  style="color: rgb(209, 209, 209);">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card border-0 bg-black">
+                <img src="./public/img/03.jpg" alt="" />
+                <div class="card-body bg-black">
+                  <h3 class="card-title text-light">Card title</h3>
+                  <p class="card-text "
+                  style="color: rgb(209, 209, 209);">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card border-0 bg-black">
+                <img src="./public/img/03.jpg" alt="" />
+                <div class="card-body bg-black">
+                  <h3 class="card-title text-light">Card title</h3>
+                  <p class="card-text "
+                  style="color: rgb(209, 209, 209);">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card border-0 bg-black">
+                <img src="./public/img/03.jpg" alt="" />
+                <div class="card-body bg-black">
+                  <h3 class="card-title text-light">Card title</h3>
+                  <p class="card-text "
+                  style="color: rgb(209, 209, 209);">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card border-0 bg-black">
+                <img src="./public/img/03.jpg" alt="" />
+                <div class="card-body bg-black">
+                  <h3 class="card-title text-light">Card title</h3>
+                  <p class="card-text "
+                  style="color: rgb(209, 209, 209);">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card border-0 bg-black">
+                <img src="./public/img/03.jpg" alt="" />
+                <div class="card-body bg-black">
+                  <h3 class="card-title text-light">Card title</h3>
+                  <p class="card-text "
+                  style="color: rgb(209, 209, 209);">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of card -->
+
+    <!-- features -->
+
+    <style>
+      .img {
+        width: 100%;
+        height: 50rem;
+          background-image: url('./public/img/06.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: top center;
+      }
+    </style>
+    <section class="py-5 bg-dark mb-5 overflow-x-hidden" style="width: 100%;">
+        <div class="row w-100 h-100">
+            <div class="img">
+                <div class="text d-flex h-100 w-100 align-items-center justify-content-center flex-column">
+                <h1 class="text-light fs-1 title">
+                    Account and dashboard pages included
+                </h1>
+                <div class="btn">
+                <a class="btn btn-outline-primary" href="">View user pages</a>
+                <a class="btn btn-outline-success" href="">View agent pages</a>
+                <a class="btn btn-outline-danger" href="">View dashboard pages</a>
+                </div>
+                </div>
+            </div>
+    </section>
+    <!-- end of features -->
+
+    <!-- footer -->
+    <footer class="py-5 bg-black">
+      <div class="container">
+        <div class="row">
+            <div class="text-center">
+                <h2 class="h1 text-white mb-5">Build Successful Websites With Booking</h2>
+                <a class="btn btn-outline-light" href="#">Buy Booking New</a>
+                <div class="pt-4 text-center text-light">
+                    Made with ❤️ by @Mohammed-Alrabai
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- javascript bootstrap cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
